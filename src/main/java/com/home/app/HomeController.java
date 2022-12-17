@@ -36,4 +36,9 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value ="lotto")
+	public String main() {
+		return "lotto";
+	}
+	
 }
